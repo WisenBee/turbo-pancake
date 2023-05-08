@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/payMode.css">
+	<title>Select Payment Method</title>
+</head>
+<body>
+	<h1>Select Payment Method</h1>
+	<form method="post" action="../additional/redirect.php">
+		<label for="payment_method">Payment Method:</label>
+		<select id="payment_method" name="payment_method">
+			<option value="credit_card">Credit Card</option>
+			<option value="paypal">PayPal</option>
+			<option value="bank_transfer">Bank Transfer</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
